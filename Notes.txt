@@ -2,6 +2,8 @@
 WEBSITES
 - https://crime-data-explorer.fr.cloud.gov/pages/docApi
 - https://api.usa.gov/crime/fbi/sapi/ (Base Link)
+
+- https://www.crimeometer.com/crime-data-api (Needs API KEY)
 ======================================
 API KEY
 - ijPEbWGrMxoQSXEr3b8SManhQJWg6UdFGBpJlX3s
