@@ -1,0 +1,108 @@
+body {
+    background-color: azure;
+}
+
+#icons {
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+#searchbar {
+    margin-top: 25px;
+    height: 20px;
+    width: 400px;
+    background-color: azure;
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+    padding: 10px;
+    border-radius: 70px;
+}
+
+#searchbarinput {
+    background-color: azure;
+    font-family: 'Roboto Mono', monospace;
+    height: 20px;
+    border: none;
+    width: 350px;
+    font-size: 20px;
+}
+
+#searchbarinput:focus {
+    outline: none;
+}
+
+#nav {
+    background-color: #EA1D15;
+    height: 80px;
+    margin: -8px;
+    padding: 10px 10px;
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: solid 1px black;
+}
+
+#nav li a {
+    background-color: #EA1D15;
+    line-height: 60px;
+    padding: 10px;
+    color: #f2f3f4;
+    font-weight: bold;
+    text-decoration: none;
+    float: right;
+    list-style-type: none;
+    font-size: 30px;
+    vertical-align: middle;
+    font-family: 'Roboto Mono', monospace;
+    margin-left: 10px;
+    margin-right: 10px;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+}
+
+#nav li a:hover {
+    color: black;
+}
+
+.dropdownbutton {
+    background-color: #EA1D15;
+    color: white;
+    border: none;
+    font-size: 30px;
+    padding-bottom: 16px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #EA1D15;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    width: 160px;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown {
+    float: right;
+    margin-top: 25px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropdownbutton {
+    background-color: black;
+}
