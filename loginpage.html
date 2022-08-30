@@ -4,12 +4,13 @@
 <head>
     <link rel="stylesheet" href="loginpage.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+    <script src="login.js"></script>
 </head>
 <body>
     <ul id="nav">
         <h1>Arizona Crime Data</h1>
     </ul>
-    <form action="" method="get">
+    <form action="" method="POST" id="form_id" name="Form">
         <div id="logindiv">
             <table>
                 <tr>
@@ -19,7 +20,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <input>
+                        <input name="username" id="username">
                     </td>
                 </tr>
                 <tr>
@@ -29,11 +30,12 @@
                 </tr>
                 <tr>
                     <td>
-                        <input>
+                        <input type="password" name="password" id="password">
                     </td>
                 </tr>
             </table>
         </div>
+        <button id="submitbutton" type="reset" onclick="validate()"></button>
     </form>
     <p id="guest"><a href="homepage.html">Continue as Guest</a></p>
     <p id="signup">New to AZCD?<a href="bruh.html"> Signup</a></p>
