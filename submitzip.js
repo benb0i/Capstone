@@ -8,6 +8,6 @@ document.addEventListener("keydown", (event) => {
 
 function validate() {
     alert("You've entered a ZIP Code");
-    window.open("bruh.html", '_self');
+    window.open("citpage.html", '_self');
     return false;
 }
