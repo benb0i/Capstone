@@ -14,7 +14,7 @@ Contributors names and contact info
 
  - [@JacobDahl](https://github.com/JacobDahl22)
  - [@ElliotBeckman](https://github.com/elliotb127)
- - [@BenBarrazza](https://github.com/benb0i)
+ - [@BenBarraza](https://github.com/benb0i)
 
 
 ## Version History
