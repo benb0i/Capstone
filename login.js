@@ -7,9 +7,9 @@ document.addEventListener("keydown", (event) => {
 }, false);
 
 function validate() {
-    var username = document.getElementById("username").value;
+    var useremail = document.getElementById("useremail").value;
     var password = document.getElementById("password").value;
-    if (username == "jacob" && password == "jacob") {
+    if (useremail == "jacob" && password == "jacob") {
         alert("Succesfully Logged In!");
         window.open("homepage.html", '_self');
         return false;

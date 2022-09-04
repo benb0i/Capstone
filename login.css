@@ -1,0 +1,17 @@
+body {
+    background-color: azure;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.form-element {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+input {
+    height: 30px;
+    width: 500px;
+    margin-left: 10px;
+}
