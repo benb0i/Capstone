@@ -60,6 +60,6 @@
             <button type="submit" name="login" value="login">Log In</button>
         </form>
         <p id="guest"><a href="homepage.html">Continue as Guest</a></p>
-        <p id="signup">New to AZCD?<a href="register.php"> Signup</a></p>
+        <p id="signup">New to AZCD?<a href="signup.php"> Signup</a></p>
     </body>
 </html>

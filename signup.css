@@ -1,0 +1,46 @@
+body {
+    background-color: azure;
+}
+
+#nav {
+    background-color: #EA1D15;
+    height: 80px;
+    margin: -8px;
+    padding: 10px 10px;
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: solid 1px black;
+}
+
+#nav h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#signupdiv {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+p {
+    font-family: 'Roboto Mono', monospace;
+}
+
+input {
+    height: 30px;
+    width: 500px;
+}
+
+#submitbtn {
+	margin-top: 20px;
+	height: 50px;
+    width: 120px;
+	font-size: 20px;
+	font-family: 'Roboto Mono', monospace;
+	border-radius: 5px;
+}
