@@ -9,5 +9,6 @@ document.addEventListener("keydown", (event) => {
 function validate() {
     alert("You've entered a ZIP Code");
     window.open("citypage.html", '_self');
+    document.getElementById("searchbarinput").value;
     return false;
 }
