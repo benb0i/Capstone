@@ -27,9 +27,8 @@
     }
 ?>
 
-<!DOCTYPE HTML>
 
-<html lang="en-US">
+<html>
 <head>
     <link rel="stylesheet" href="signup.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">

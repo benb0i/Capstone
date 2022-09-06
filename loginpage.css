@@ -2,6 +2,13 @@ body {
     background-color: azure;
 }
 
+button {
+    background-color: azure;
+    font-family: 'Roboto Mono', monospace;
+    align-items: center;
+    text-align: center;
+}
+
 #nav {
     background-color: #EA1D15;
     height: 80px;
