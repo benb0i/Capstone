@@ -10,6 +10,15 @@ body {
     margin-left: 20px;
 }
 
+button {
+    font-family: 'Roboto Mono', monospace;
+    background-color: azure;
+    float: right;
+    border: none;
+    height: 20px;
+    margin-top: 0px;
+}
+
 #icons {
     margin-right: 10px;
     margin-top: 10px;
@@ -33,7 +42,7 @@ body {
     font-family: 'Roboto Mono', monospace;
     height: 20px;
     border: none;
-    width: 350px;
+    width: 300px;
     font-size: 20px;
 }
 

@@ -1,16 +1,6 @@
 body {
     background-color: azure;
-}
-
-button {
     font-family: 'Roboto Mono', monospace;
-    align-items: center;
-    text-align: center;
-    margin-top: 20px;
-    height: 50px;
-    width: 120px;
-    font-size: 20px;
-    border-radius: 5px;
 }
 
 #nav {
@@ -31,36 +21,17 @@ button {
     font-family: 'Roboto Mono', monospace;
 }
 
-#logindiv {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-
-p {
-    font-family: 'Roboto Mono', monospace;
-}
-
 input {
     height: 30px;
     width: 500px;
 }
 
-a {
-    text-decoration: none;
-    color: #0040ff;
-}
-
-#signup {
-    text-align: center;
-}
-
-#guest {
-    color: #0040ff;
-    text-decoration: none;
+div {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
     font-family: 'Roboto Mono', monospace;
-    text-align: center;
-    font-size: 13px;
 }
 
 button {
@@ -72,6 +43,6 @@ button {
     border-radius: 5px;
 }
 
-p.button {
+p {
     text-align: center;
 }
