@@ -6,9 +6,9 @@ document.addEventListener("keydown", (event) => {
     }
 }, false);
 
-function submitzip() {
-    var zipcode = document.getElementById("searchbarinput").value;
-    alert("You've entered the ZIP Code: " + zipcode);
+function validate() {
+    alert("You've entered a ZIP Code");
     window.open("citypage.html", '_self');
+    document.getElementById("searchbarinput").value;
     return false;
 }
