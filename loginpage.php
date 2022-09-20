@@ -32,6 +32,7 @@
         <ul id="nav">
             <h1>Arizona Crime Data</h1>
         </ul>
+        <h1 style="text-align:center; margin-top:110px; font-family: 'Roboto Mono', monospace;"><b>Login to Your Account</b></h1>
         <form method="post" action="" name="signin-form">
             <div id="logindiv">
                 <table>
@@ -57,7 +58,9 @@
                     </tr>
                 </table>
             </div>
-            <button type="submit" name="login" value="login">Log In</button>
+            <p class="button">
+                <button type="submit" name="login" value="login">Log In</button>
+            </p>
         </form>
         <p id="guest"><a href="homepage.html">Continue as Guest</a></p>
         <p id="signup">New to AZCD?<a href="register.php"> Signup</a></p>
