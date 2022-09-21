@@ -39,8 +39,11 @@
             <li>
                 <img src="azcdlogo.JPG" id="navlogo">
             </li>
+                <body>
+                    <h1>
+                    zipcode entered: <span id="result"></span>
+                    </h1> 
+                    <script>document.getElementById("result").innerHTML=localStorage.getItem("textvalue"); </script>
+            </body>
         </ul>
-        <p>
-            Zipcode entered: <span id="searchbarinput"> </span>
-        </p>
     </body>
