@@ -12,7 +12,7 @@
         <script src="submitzip.js"></script>
         <script src="https://kit.fontawesome.com/d4b022d1e9.js" crossorigin="anonymous"></script>    
     </head>
-    <body> 
+    <body>
         <ul id="nav">
             <li>
                 <a><i class="fa-solid fa-user-gear"></i></li></a>
@@ -39,11 +39,12 @@
             <li>
                 <img src="azcdlogo.JPG" id="navlogo">
             </li>
-                <body>
-                    <h1>
-                    zipcode entered: <span id="result"></span>
-                    </h1> 
-                    <script>document.getElementById("result").innerHTML=localStorage.getItem("textvalue"); </script>
-            </body>
         </ul>
+        <h1 style="font-family: 'Roboto Mono', monospace; margin-top: 100px;">
+            Zipcode entered: <span id="result"></span>
+        </h1> 
+        <script>
+            document.getElementById("result").innerHTML=localStorage.getItem("textvalue"); 
+        </script>
     </body>
+</html>

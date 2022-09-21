@@ -115,3 +115,7 @@ body {
 .dropdown:hover .dropdownbutton {
     background-color: black;
 }
+
+h2 {
+    color: green;
+}

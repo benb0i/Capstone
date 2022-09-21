@@ -7,9 +7,8 @@ document.addEventListener("keydown", (event) => {
 }, false);
 
 function validate() {
-    alert("You've entered a ZIP Code");
-    var zipvalue=document.getElementById("searchbarinput").value;
-    localStorage.setItem("textvalue",zipvalue);
+    var zipvalue = document.getElementById("searchbarinput").value;
+    localStorage.setItem("textvalue", zipvalue);
     window.open("citypage.html", '_self');
     return false;
 }
