@@ -39,7 +39,7 @@
         </ul>
         <h1 style="text-align:center; margin-top:110px; font-family: 'Roboto Mono', monospace;"><b>Create an Account</b></h1>
         <form method="post" action="" name="signup-form">
-            <div class="form-element">
+            <!--<div class="form-element">
                 <label>Username</label>
                 <input type="text" name="username" pattern="[a-zA-Z0-9]+" required />
             </div>
@@ -50,7 +50,35 @@
             <div class="form-element">
                 <label>Password</label>
                 <input type="password" name="password" required />
-            </div>
+            </div>-->
+            <table>
+                <tr>
+                    <td>
+                        <p>Username</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" name="username" pattern="[a-zA-Z0-9]+" required />
+                    </td>
+                </tr>
+                <tr>
+                    <p>Email</p>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="email" name="email" required />
+                    </td>
+                </tr>
+                <tr>
+                    <p>Password</p>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="password" name="password" required />
+                    </td>
+                </tr>
+            </table>
             <p>
                 <button type="submit" name="register" value="register">Register</button>
             </p>

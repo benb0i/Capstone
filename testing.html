@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+
+<html lang="en-US">
+    <head>
+        <title>AZCD</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+        <link rel="stylesheet" href="homepage.css">
+        <script src="submitzip.js"></script>
+        <script src="https://kit.fontawesome.com/d4b022d1e9.js" crossorigin="anonymous"></script>    
+    </head>
+    <body>
+        <ul id="nav">
+            <li>
+                <a><i class="fa-solid fa-user-gear"></i></li></a>
+            </li>
+            <li>
+                <div class="dropdown">
+                    <button class="dropdownbutton">Favorites<i class="fa-solid fa-caret-down"></i></button>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                        <a href="#">Link 4</a>
+                        <a href="#">Link 5</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+            <form action="citypage.html">
+                <div id="searchbar">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" id="searchbarinput" placeholder="Enter a ZIP code" maxlength="5">
+                        <button type="submit" name="enter" value="enter" id="enterbutton" onclick="validate()">Enter</button>
+                </div>
+            </form>
+            </li>
+            <li>
+                <img src="azcdlogo.JPG" id="navlogo">
+            </li>
+        </ul>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <iframe width="1000" height="700" src="https://www.phoenixopendata.com/dataset/crime-data/resource/0ce3411a-2fc6-4302-a33f-167f68608a20/view/9dd33103-a106-42f9-8398-390b62a756bb" frameBorder="0"></iframe>
+    </body>
+</html>

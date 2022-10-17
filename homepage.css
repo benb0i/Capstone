@@ -1,5 +1,5 @@
 body {
-    background-color: azure;
+    background-color: white;
 }
 
 #navlogo {
@@ -10,9 +10,14 @@ body {
     margin-left: 20px;
 }
 
+#searchbutton {
+    text-align: center;
+    float: left;
+}
+
 button {
     font-family: 'Roboto Mono', monospace;
-    background-color: azure;
+    background-color: white;
     float: right;
     border: none;
     height: 20px;
@@ -30,7 +35,7 @@ button {
     margin-left: 35%;
     height: 20px;
     width: 400px;
-    background-color: azure;
+    background-color: white;
     font-family: 'Roboto Mono', monospace;
     color: black;
     padding: 10px;
@@ -38,7 +43,7 @@ button {
 }
 
 #searchbarinput {
-    background-color: azure;
+    background-color: white;
     font-family: 'Roboto Mono', monospace;
     height: 20px;
     border: none;

@@ -1,12 +1,13 @@
 body {
-    background-color: azure;
+    background-color: white;
 }
 
 #navlogo {
     height: 80px;
     width: 130px;
     float: left;
-    margin-top: -61.5px;
+    /*margin-top: -61.5px;*/
+    margin-top: 3.5px;
     margin-left: 20px;
 }
 
