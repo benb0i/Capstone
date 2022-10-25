@@ -22,8 +22,10 @@ body {
 }
 
 input {
-    /*height: 30px;
-    width: 500px;*/
+    height: 30px;
+    width: 500px;
+    align-items: center;
+    font-family: 'Roboto Mono', monospace;
 }
 
 div {
@@ -44,5 +46,33 @@ button {
 }
 
 p {
+    font-family: 'Roboto Mono', monospace;
+}
+
+#registerdiv {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+p.button {
     text-align: center;
+}
+
+#account-create-msg {
+    text-align: center;
+    color: green;
+}
+
+#back-to-login-btn {
+    color: #0040ff;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #0040ff;
 }

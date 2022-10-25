@@ -14,6 +14,7 @@
             if (password_verify($password, $result['password'])) {
                 $_SESSION['user_id'] = $result['id'];
                 echo '<p class="success">Congratulations, you are logged in!</p>';
+                header("Location: homepage.html");
             } else {
                 echo '<p class="error">Username password combination is wrong!</p>';
             }
@@ -38,12 +39,12 @@
                 <table>
                     <tr>
                         <td>
-                            <p>Email</p>
+                            <p>Username</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <input name="useremail" id="useremail" required>
+                            <input name="username" id="username" required>
                         </td>
                     </tr>
                     <tr>
