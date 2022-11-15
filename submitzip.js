@@ -9,6 +9,6 @@ document.addEventListener("keydown", (event) => {
 function validate() {
     var zipvalue = document.getElementById("searchbarinput").value;
     localStorage.setItem("textvalue", zipvalue);
-    window.open("citypage.html", '_self');
+    window.open("tabletest.html", '_self');
     return false;
 }
