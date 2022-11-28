@@ -10,17 +10,27 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
         <link rel="stylesheet" href="homepage.css">
         <script src="submitzip.js"></script>
+        <script src="timeout.js"></script>
         <script src="https://kit.fontawesome.com/d4b022d1e9.js" crossorigin="anonymous"></script>    
+        <style>
+            .dark-mode{
+                color: white;
+                background: linear-gradient(to right, black, #545454);
+            }
+        </style>
     </head>
     <body>
         <ul id="nav">
             <li>
-                <a><i class="fa-solid fa-user-gear"></i></li></a>
+                <a href="http://localhost/loginpage.php"><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
             </li>
             <li>
-                <a href="mailto:benbarraza1@gmail.com"><i class="fa-solid fa-envelope"></i></a>
-            </li>
+			    <a onclick="darkMode()"><i class="fa-solid fa-moon"></i></a>
+		    </li>
             <li>
+                <a href="mailto:email"><i class="fa-solid fa-envelope"></i></a>
+            </li>
+            <!--<li>
                 <div class="dropdown">
                     <button class="dropdownbutton">Favorites<i class="fa-solid fa-caret-down"></i></button>
                     <div class="dropdown-content">
@@ -31,9 +41,9 @@
                         <a href="#">Link 5</a>
                     </div>
                 </div>
-            </li>
+            </li>-->
             <li>
-            <form action="citypage.html">
+            <form action="tabletest.html">
                 <div id="searchbar">
                     <i class="fa-solid fa-magnifying-glass"></i>
                         <input type="text" id="searchbarinput" placeholder="Enter a ZIP code" maxlength="5">
@@ -42,8 +52,28 @@
             </form>
             </li>
             <li>
-                <img src="azcdlogo.JPG" id="navlogo">
+                <a href="homepage.html" class="pic"><img src="azcdlogo.JPG" id="navlogo"></a>
             </li>
         </ul>
+		<h1 class="main-heading">Arizona Crime Data</h1>
+        <p></p>
+        <p></p>
+        <img src="crime_statistics.jpg" id="crimepic">
+		<h2>ABOUT THIS SITE</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        <hr>
+		<h2 id="mission">OUR MISSION</h2>
+		<p id="mission">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        <img src="14072241999_717169383e_b.jpg" id="flagpic">
+        <hr>
+        <img src="field.jpg" id="teampic">
+		<h2>ABOUT US</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        <script>
+            function darkMode() {
+                var element = document.body;
+                element.classList.toggle("dark-mode");
+            }
+        </script>
     </body>
 </html>

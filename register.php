@@ -38,22 +38,52 @@
             <h1>Arizona Crime Data</h1>
         </ul>
         <h1 style="text-align:center; margin-top:110px; font-family: 'Roboto Mono', monospace;"><b>Create an Account</b></h1>
-        <form method="post" action="" name="signup-form">
-            <div class="form-element">
-                <label>Username</label>
-                <input type="text" name="username" pattern="[a-zA-Z0-9]+" required />
+        <form method="post" action="" name="signup-form" onsubmit="SubmitCode();">
+            <div id="registerdiv">
+                <table>
+                    <tr>
+                        <td>
+                            <p>Username</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" name="username" pattern="[a-zA-Z0-9]+" required />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Email</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="email" name="email" required />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Password</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="password" name="password" required />
+                        </td>
+                    </tr>
+                </table>
             </div>
-            <div class="form-element">
-                <label>Email</label>
-                <input type="email" name="email" required />
-            </div>
-            <div class="form-element">
-                <label>Password</label>
-                <input type="password" name="password" required />
-            </div>
-            <p>
+            <p id="account-create-msg"></p>
+            <p class="button">
                 <button type="submit" name="register" value="register">Register</button>
             </p>
         </form>
+        <p id="back-to-login-btn"><a href="loginpage.php">Back to Login</a></p>
+        <script>
+            function SubmitCode(){
+                document.getElementById('account-create-msg').innerHTML = "Account registration succesful!";
+                alert("Account registration succesful!")
+            }
+        </script>
     </body>
 </html>

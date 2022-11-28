@@ -1,0 +1,14 @@
+             INC NUMBER        OCCURRED ON        OCCURRED TO   UCR CRIME CATEGORY              100 BLOCK ADDR      ZIP                 PREMISE TYPE   GRID
+0       201500002102668  11/01/2015  00:00  11/01/2015  11:50  MOTOR VEHICLE THEFT              69XX W WOOD ST  85043.0          SINGLE FAMILY HOUSE   AF12
+1       201600000527709  11/01/2015  00:00  03/22/2016  00:36        LARCENY-THEFT         33XX W CAMELBACK RD  85017.0                  PARKING LOT   BJ21
+2       201600000594484  11/01/2015  00:00                NaN                 RAPE           13XX E ALMERIA RD  85006.0          SINGLE FAMILY HOUSE   BD30
+3       201500002168686  11/01/2015  00:00  11/11/2015  09:30        LARCENY-THEFT         14XX E HIGHLAND AVE  85014.0                  PARKING LOT   BI30
+4       201700001603695  11/01/2015  00:00  03/31/2016  00:00                 RAPE         38XX W CAMELBACK RD  85019.0                     HOSPITAL   BI20
+...                 ...                ...                ...                  ...                         ...      ...                          ...    ...
+447554  202200001395354  09/15/2022  22:39                NaN         DRUG OFFENSE   S 5TH AVE & W PIEDMONT RD  85041.0  STREET / ROADWAY / SIDEWALK   ID27
+447555  202200001395360  09/15/2022  22:39                NaN        LARCENY-THEFT          28XX W AUGUSTA AVE  85051.0                    APARTMENT   CE22
+447556  202200001395361  09/15/2022  22:40  09/15/2022  22:40              ROBBERY  E VAN BUREN ST & N 32ND ST  85008.0                        ALLEY   BB34
+447557  202200001395579  09/15/2022  22:50                NaN              ROBBERY         20XX W GLENDALE AVE  85015.0        GAS / SERVICE STATION   CC24
+447558  202200001395526  09/15/2022  23:30                NaN   AGGRAVATED ASSAULT              15XX N 52ND DR  85043.0                      UNKNOWN  BC16A
+
+[447559 rows x 8 columns]
